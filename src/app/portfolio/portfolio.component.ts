@@ -7,7 +7,7 @@ import { Title } from '@angular/platform-browser';
   styleUrl: './portfolio.component.css'
 })
 export class PortfolioComponent {
-// using angular pre-built services Title to set our title.
+
 constructor(private titleService:Title) {
   this.titleService.setTitle('Apurva-Home')
 }
