@@ -1,0 +1,14 @@
+.spacer {
+    flex: 1 1 auto;
+  }
+  
+  .nav-buttons {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+
+  .mat-toolbar {
+    background: transparent; /* Set the background to transparent */
+    color: white;
+  }
