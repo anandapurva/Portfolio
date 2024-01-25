@@ -1,14 +1,16 @@
-.spacer {
-    flex: 1 1 auto;
-  }
+
   
   .nav-buttons {
     display: flex;
-    justify-content: flex-end;
+    justify-content: center;
     align-items: center;
   }
 
   .mat-toolbar {
     background: transparent; /* Set the background to transparent */
     color: white;
+  }
+  button{
+    padding: 20px;
+    font-size: 20px;
   }

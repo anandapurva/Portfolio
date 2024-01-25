@@ -1,0 +1,16 @@
+<div class="dialog">
+<h1 mat-dialog-title>{{ data.name }}</h1>
+
+<mat-dialog-content>
+    <h2>Description:</h2>
+  <p>{{ data.description }}</p>
+  <h2>Key Features: </h2>
+  <ul>
+    <li *ngFor="let feature of data.keyFeatures">{{ feature }}</li>
+  </ul>
+</mat-dialog-content>
+
+<mat-dialog-actions>
+  <button mat-button mat-dialog-close>Close</button>
+</mat-dialog-actions>
+</div>

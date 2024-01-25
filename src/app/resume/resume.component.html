@@ -1,1 +1,156 @@
-<p>resume works!</p>
+<div class="center-container">
+    <div class="downloadbtn">
+        <button mat-raised-button style="background-color: #FFA732;" (click)="downloadFile()">Download Resume</button>
+    </div>
+</div>
+
+<mat-accordion>
+
+    <!-- Work Experience -->
+    <mat-expansion-panel hideToggle>
+        <mat-expansion-panel-header>
+            <mat-panel-title>
+                Work Experience
+            </mat-panel-title>
+        </mat-expansion-panel-header>
+        <div class="experience-item">
+            <h4>RoboMQ | July 2023 – Dec 2023</h4>
+            <p class="position">Associate Software Engineer | Jaipur, Rajasthan</p>
+            <ul>
+                <li>Formerly employed as a Frontend Developer at RoboMQ, specializing in utilizing the following
+                    technologies:
+                    Angular, Node.js, Express, MySQL (MEAN stack).</li>
+                <li>Contributions:
+                    <ul>
+                        <li>Customer-Based Azure AD Application:
+                            <ul>
+                                <li>Implemented UI modifications facilitating seamless selection between two connection
+                                    types.</li>
+                                <li>Added crucial functionality for generating certificates and editing connection
+                                    names.</li>
+                            </ul>
+                        </li>
+                        <li>Mapping table UX Improvement:
+                            <ul>
+                                <li>Implemented automatic table size adjustment for a more user-friendly experience.
+                                </li>
+                            </ul>
+                        </li>
+                        <li>Implemented a feature to display a summary view with collapsed tables, providing a concise
+                            overview for
+                            improved user experience.</li>
+                        <li>Identified and resolved software issues through systematic debugging and efficient bug
+                            fixes.</li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+
+        <div class="experience-item">
+            <h4>Celebal Technologies | June 2022 – July 2022</h4>
+            <p class="position">Data Science Intern | Remote</p>
+            <ul>
+                <li>Engaged in a learning-based internship, actively working on assigned tasks to gain hands-on
+                    experience.</li>
+                <li>Developed Classical ML models with TensorFlow, Keras, PyTorch, and YOLOv5.</li>
+                <li>Acquired familiarity with Streamlit for web applications and Folium for geospatial visualization.
+                </li>
+            </ul>
+        </div>
+    </mat-expansion-panel>
+
+    <!-- Education details -->
+    <mat-expansion-panel hideToggle>
+        <mat-expansion-panel-header>
+            <mat-panel-title>
+                Education
+            </mat-panel-title>
+        </mat-expansion-panel-header>
+
+        <div class="education-content">
+
+            <div class="education-details">
+                <div class="education-item">
+                    <h3>Arya College of Engineering & IT, RTU Kota </h3>
+                    <p>July 2019 – June 2023</p>
+                </div>
+                <div class="education-item">
+                    <p>Bachelor of Technology in Computer Science</p>
+                    <p>Jaipur, Rajasthan</p>
+                </div>
+            </div>
+
+            <div class="education-details">
+                <div class="education-item">
+                    <h3>D.A.V Public School </h3>
+                    <p>May 2017 – March 2018</p>
+                </div>
+                <div class="education-item">
+                    <p>Completed 12th in PCM</p>
+                    <p>Gaya, Bihar</p>
+                </div>
+            </div>
+
+            <div class="education-details">
+                <div class="education-item">
+                    <h3>D.A.V Public School</h3>
+                    <p>March 2015 – April 2016</p>
+                </div>
+                <div class="education-item">
+                    <p>Completed 10th</p>
+                    <p>Gaya, Bihar</p>
+                </div>
+            </div>
+        </div>
+    </mat-expansion-panel>
+
+
+    <mat-expansion-panel hideToggle>
+        <mat-expansion-panel-header>
+            <mat-panel-title>
+                Skills
+            </mat-panel-title>
+        </mat-expansion-panel-header>
+
+        <div class="skills-content">
+            <div class="slills-category">
+                <h3>Languages:</h3>
+                <ul>
+                    <li>C/C++</li>
+                    <li>Python</li>
+                    <li>JavaScript</li>
+                    <li>TypeScript</li>
+                    <li>SQL</li>
+                </ul>
+            </div>
+
+            <div class="slills-category">
+                <h3>Web Development:</h3>
+                <ul>
+                    <li>HTML/CSS</li>
+                    <li>Angular</li>
+                    <li> Node.js</li>
+                    <li>Express</li>
+                    <li>MySQL</li>
+                    <li>ChartJs</li>
+                    <li>Angular Material</li>
+                </ul>
+            </div>
+
+            <div class="slills-category">
+                <h3>Other Skills:</h3>
+                <ul>
+                    <li>Linux</li>
+                    <li>Git/GitHub</li>
+                    <li> Web Scraping</li>
+                    <li>Data Analysis</li>
+                    <li>Power BI tool</li>
+                    <li>Active Directory</li>
+                    <li>LDAP</li>
+                    <li>Docker</li>
+                </ul>
+            </div>
+        </div>
+    </mat-expansion-panel>
+
+</mat-accordion>

@@ -1,0 +1,42 @@
+/* home.component.css */
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 25px;
+  }
+  
+  .photo-container {
+    width: 30%; /* Adjust the width as needed */
+    /* padding-left: 25px; */
+  }
+  
+  .photo {
+    width: auto;
+    height: 350px;
+    border-radius: 8px; /* Optional: Add rounded corners */
+    padding: 20px;
+    border: 10px solid #FFA732;
+    border-style:double;
+  }
+  
+  .about-me-card {
+    width: 40%; /* Adjust the width as needed */
+    padding: 30px;
+    height: 400px;
+    background-color: transparent;
+    color: white;
+
+  }
+
+  .upper{
+    margin: 0px;
+    color: #FFA732
+  }
+  .lower{
+color: white;
+font-size: 25px;
+font-weight: 600;
+  }
+  
+

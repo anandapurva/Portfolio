@@ -1,0 +1,55 @@
+.center-container{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    margin: 2%;
+}
+
+  .education-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 0px;
+  }
+
+  mat-panel-title{
+    color: white;
+    text-align: center;
+  }
+
+  .mat-expansion-panel-content {
+    box-sizing: border-box;
+    border-top: 2px solid darkgoldenrod; /* Border when collapsed */
+  }
+
+  h4, h3, strong{
+    color: #FFA732;;
+    font-weight: 600;
+  }
+
+  .skills-content {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .skills-category {
+    width: 30%; 
+  }
+  
+  /* Default style for collapsed state */
+.mat-expansion-panel {
+    background-color: transparent; /* Collapsed color */
+    border: 2px solid #FFA732;
+    width: 80%;
+    margin: auto;
+    margin-bottom: 10px;
+    border-radius: 10px;
+  }
+  
+  /* Style for expanded state */
+  .mat-expansion-panel.mat-expanded {
+    background-color: transparent; /* Expanded color */
+    border: 1px solid #FFA732;
+    color: white;
+  }
+ 

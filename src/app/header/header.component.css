@@ -4,8 +4,14 @@
 }
 .text-center{
     text-align: center;
-    color: white;
+   color: white;
 }
-/* .display-4{
-    /* font-size: 40px; 
-} */
+.mat-display-4{
+    font-size: 40px;
+    color: #FFA732;
+    font-weight: 500;
+}
+.mat-subheading-2{
+    font-size: 22px;
+    font-weight: 400;
+}
