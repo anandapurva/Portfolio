@@ -6,3 +6,13 @@
   /* Adjust based on your design preferences */
   /* height: 100%; */
 }
+
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 5vh;
+  background-color: #FFA732;
+  color: black;
+  font-size: 20px;
+}
