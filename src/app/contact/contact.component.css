@@ -1,0 +1,64 @@
+.contact-links{
+    width: 100%;
+    padding: 20px;
+    margin: 20px;
+}
+
+.upper-text{
+text-align: center;
+}
+.desc{
+    text-align: center;
+}
+
+.address, .mail-call {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.address-content , .mail, .call{
+    display: flex;
+    flex-direction: row; /* Arrange children horizontally */
+    align-items: center; /* Center items horizontally */
+  }
+
+  /* Set styles for the text */
+ .address h2, .mail-call h2{
+    margin: 0; 
+    padding-left: 8px;
+  }
+
+  .icons{
+    color: #FFA732;
+    /* margin-left: 8px; */
+  }
+
+  .social-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+  }
+
+  .social-box a{
+    color: inherit;
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+  .social-icon {
+    font-size: 24px;
+    margin-right: 8px;
+  }
+
+  .social-content {
+    display: flex;
+    align-items: center;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 10px;
+    margin: 10px;
+    width: fit-content;
+  }

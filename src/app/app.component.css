@@ -1,6 +1,8 @@
 .image {
-    background-image: linear-gradient(rgba(18, 20, 31, 0.8), rgba(18, 20, 31, 0.8)),url('../assets/images/laptop.jpg');
-    background-size: cover; /* Adjust based on your design preferences */
-    background-position:center 38%; /* Adjust based on your design preferences */
-
-  }
+  background-image: linear-gradient(rgba(18, 20, 31, 0.8), rgba(18, 20, 31, 0.8)), url('../assets/images/laptop.jpg');
+  background-size: cover;
+  /* Adjust based on your design preferences */
+  background-position: center 38%;
+  /* Adjust based on your design preferences */
+  /* height: 100%; */
+}

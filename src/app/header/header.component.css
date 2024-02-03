@@ -7,11 +7,17 @@
    color: white;
 }
 .mat-display-4{
-    font-size: 40px;
+    font-size: 65px;
     color: #FFA732;
     font-weight: 500;
+    padding-top: 30px;
 }
-.mat-subheading-2{
-    font-size: 22px;
+.text-display{
+    font-size: 40px;
     font-weight: 400;
+    padding: 15px;
+}
+
+.mat-subheading{
+    font-size: 22px;
 }

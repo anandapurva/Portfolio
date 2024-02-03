@@ -1,17 +1,30 @@
-<div class="container">
-    <div class="photo-container">     
-      <img class="photo" src="../assets/images/myPhoto.jpeg" alt="Your Photo">
-    </div>
-  
-    <mat-card class="about-me-card">
-      <mat-card-title>
-        <p style="color: #FFA732;" class="upper">Know</p>  
-        <p class="lower">About Me</p>
-    </mat-card-title>
-      <mat-card-content>
-        <!-- Your text about yourself goes here -->
-        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum
-      </mat-card-content>
-    </mat-card>
+<div class="container" id="about-section">
+  <div class="photo-container">
+    <img class="photo" src="../assets/images/myPhoto.jpeg" alt="Your Photo">
   </div>
-  
+
+  <mat-card class="about-me-card">
+    <mat-card-title>
+      <p style="color: #FFA732;" class="upper">Know</p>
+      <p class="lower">About Me</p>
+    </mat-card-title>
+    <mat-card-content>
+      <!-- Your text about yourself goes here -->
+      Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's
+      standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a
+      type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting,
+      remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing
+      Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions
+      of Lorem Ipsum
+    </mat-card-content>
+
+    <div class="center-container">
+      <div class="contactbtn">
+      <a href="#contact-section"><button mat-button style="color: #FFA732;">Contact</button></a>
+    </div>
+      <div class="downloadbtn">
+        <button mat-button style="background-color: #FFA732; border-radius: 25px;" (click)="downloadFile()">Download CV</button>
+      </div>
+    </div>
+  </mat-card>
+</div>

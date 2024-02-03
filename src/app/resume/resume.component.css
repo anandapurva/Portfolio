@@ -17,6 +17,10 @@
     text-align: center;
   }
 
+  .mat-accordion{
+    padding: 5px;
+  }
+
   .mat-expansion-panel-content {
     box-sizing: border-box;
     border-top: 2px solid darkgoldenrod; /* Border when collapsed */
@@ -30,6 +34,7 @@
   .skills-content {
     display: flex;
     justify-content: space-between;
+    margin-right: 5%;
   }
   
   .skills-category {

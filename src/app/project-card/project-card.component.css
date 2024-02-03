@@ -1,9 +1,11 @@
 
 mat-card {
   margin: 25px;
+  margin-top: 0px;
     height: 200px;
     width: 29%;
-    background-color: transparent;
+    /* background-color:  rgb(18, 20, 31); */
+    background-color:  transparent;
     display: inline-block;
     border: 2px solid #FFA732;
     padding: 8px;
@@ -12,7 +14,7 @@ mat-card {
 
   mat-card-header , mat-card-actions{
     padding-bottom: 2px;
-    color: #FFA732;;
+    color: #FFA732;
 
     button{
       display: flex;
