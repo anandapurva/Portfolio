@@ -14,6 +14,7 @@ export class ProjectCardComponent {
   openDialog(): void {
     const dialogRef = this.dialog.open(ProjectPopupComponent, {
       width: '500px', // Set the width as needed
+      panelClass: 'dialog-background',
       data: this.projectData // Pass data to the dialog
     });
   }

@@ -1,26 +1,20 @@
 
 mat-card {
-  margin: 25px;
-  margin-top: 0px;
-    height: 200px;
-    width: 29%;
-    /* background-color:  rgb(18, 20, 31); */
     background-color:  transparent;
-    display: inline-block;
     border: 2px solid #FFA732;
-    padding: 8px;
-    /* text-align: center; */
+
   }
 
   mat-card-header , mat-card-actions{
-    padding-bottom: 2px;
     color: #FFA732;
 
     button{
-      display: flex;
-      margin: auto;
       background-color: #FFA732;
     }
+  }
+
+  .dialog-background{
+    background-color: red;
   }
   
   

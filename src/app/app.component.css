@@ -7,6 +7,16 @@
   /* height: 100%; */
 }
 
+.contact-img{
+  background-image: linear-gradient(rgba(31, 30, 18, 0.8), rgba(18, 20, 31, 0.9)), url('../assets/images/contact.jpg');
+  background-size: cover;
+}
+
+.project-img{
+  background-image: linear-gradient(rgba(18, 20, 31, 0.8), rgba(18, 20, 31, 0.8)), url('../assets/images/project.jpg');
+  background-size: cover;
+}
+
 .footer {
   display: flex;
   align-items: center;

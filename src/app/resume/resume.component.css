@@ -14,11 +14,11 @@
 
   mat-panel-title{
     color: white;
-    text-align: center;
+    font-size: 18px;
   }
 
   .mat-accordion{
-    padding: 5px;
+    padding: 20px;
   }
 
   .mat-expansion-panel-content {
@@ -26,10 +26,10 @@
     border-top: 2px solid darkgoldenrod; /* Border when collapsed */
   }
 
-  h4, h3, strong{
+  /* h4, h3, strong{
     color: #FFA732;;
     font-weight: 600;
-  }
+  } */
 
   .skills-content {
     display: flex;
