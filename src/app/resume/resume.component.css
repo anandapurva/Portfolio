@@ -1,9 +1,4 @@
-.center-container{
-    text-align: center;
-    display: flex;
-    justify-content: center;
-    margin: 2%;
-}
+
 
   .education-item {
     display: flex;
@@ -25,11 +20,6 @@
     box-sizing: border-box;
     border-top: 2px solid darkgoldenrod; /* Border when collapsed */
   }
-
-  /* h4, h3, strong{
-    color: #FFA732;;
-    font-weight: 600;
-  } */
 
   .skills-content {
     display: flex;
